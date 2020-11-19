@@ -10,11 +10,9 @@ This repository contains a reproduction of [Eulerian Video Magnification for Rev
 | reproduce_paper.py      | Runs experiments for the video files hosted on the paper's website                |
 
 ## Results
-| Authors results | This repo results|
-| --------------- | ---------------- |
-| ![](gifs/output_authors/baby1.gif) | ![](gifs/output/baby1.gif)  |
-| ![](gifs/output_authors/shadow.gif)  | ![](gifs/output/shadow.gif)  |
-| ![](gifs/output_authors/guitar_a.gif)  | ![](gifs/output/guitar_a.gif)  |
-| ![](gifs/output_authors/face1.gif)  | ![](gifs/output/face1.gif)  |
-
-
+| Subject | Authors results | This repo results|
+| ---------------| --------------- | ---------------- |
+| Baby breathing | ![](gifs/output_authors/baby1.gif) | ![](gifs/output/baby1.gif)  |
+| Shadow on a house | ![](gifs/output_authors/shadow.gif)  | ![](gifs/output/shadow.gif)  |
+| Guitar a string | ![](gifs/output_authors/guitar_a.gif)  | ![](gifs/output/guitar_a.gif)  |
+| Human pusle (speed difference due to fps conversion) | ![](gifs/output_authors/face1.gif)  | ![](gifs/output/face1.gif)  |
