@@ -14,6 +14,7 @@ This repository contains a reproduction of [Eulerian Video Magnification for Rev
 | --------------- | ---------------- |
 | ![](gifs/output_authors/baby1.gif) | ![](gifs/output/baby1.gif)  |
 | ![](gifs/output_authors/shadow.gif)  | ![](gifs/output/shadow.gif)  |
+| ![](gifs/output_authors/guitar_a.gif)  | ![](gifs/output/guitar_a.gif)  |
 | ![](gifs/output_authors/face1.gif)  | ![](gifs/output/face1.gif)  |
 
 
