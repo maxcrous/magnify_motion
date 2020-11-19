@@ -5,7 +5,8 @@ This repository contains a reproduction of [Eulerian Video Magnification for Rev
 | Authors results | This repo results|
 | --------------- | ---------------- |
 | ![](gifs/output_authors/baby1.gif) | ![](gifs/output/baby1.gif)  |
-| Content Cell  | Content Cell  |
+| ![](gifs/output_authors/shadow.gif)  | ![](gifs/output_authors/shadow.gif)  |
+| ![](gifs/output_authors/face1.gif)  | ![](gifs/output_authors/face1.gif)  |
 
 
 ## File structure 
