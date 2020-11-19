@@ -4,7 +4,7 @@ This repository contains a reproduction of [Eulerian Video Magnification for Rev
 ## File structure 
 | Name                    | Purpose                                                                           |
 |-------------------------|-----------------------------------------------------------------------------------|
-| filters.py              | Ideal, Buttersworth and iir signal filters                                        |
+| filters.py              | Ideal, Buttersworth and author's IIR signal filters                               |
 | pyramids.py             | Image dimension agnostic Laplacian and Guassian pyramid building functions        |
 | motion_magnify.py       | The main function used to create a motion or color magnified video.               |
 | reproduce_paper.py      | Runs experiments for the video files hosted on the paper's website                |
