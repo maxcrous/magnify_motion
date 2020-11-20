@@ -15,4 +15,4 @@ This repository contains a reproduction of [Eulerian Video Magnification for Rev
 | Baby breathing | ![](gifs/output_authors/baby1.gif) | ![](gifs/output/baby1.gif)  |
 | Shadow on a house | ![](gifs/output_authors/shadow.gif)  | ![](gifs/output/shadow.gif)  |
 | Guitar A string | ![](gifs/output_authors/guitar_a.gif)  | ![](gifs/output/guitar_a.gif)  |
-| Human pusle | ![](gifs/output_authors/face1.gif)  | ![](gifs/output/face1.gif)  |
+| Human pusle (speed difference due to fps conversion)| ![](gifs/output_authors/face1.gif)  | ![](gifs/output/face1.gif)  |
