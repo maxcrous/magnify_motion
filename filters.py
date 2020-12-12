@@ -55,7 +55,7 @@ def ideal_filter_stack(stack, lowcut, highcut, fs):
         github user flyingzhao at https://bit.ly/3lArgUp.
     """
     fft = fftpack.fft(stack, axis=0)
-    frequencies = fftpack.fftfreq(stack.shape[0], d=0.5 / fs)
+    frequencies = fftpack.fftfreq(stack.shape[0], d=1 / fs)
     bound_low = (np.abs(frequencies - lowcut)).argmin()
     bound_high = (np.abs(frequencies - highcut)).argmin()
     fft[:bound_low] = 0
