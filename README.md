@@ -1,6 +1,13 @@
 # Eulerian Video Magnification 
 This repository contains a reproduction of [Eulerian Video Magnification for Revealing Subtle Changes in the World](http://people.csail.mit.edu/mrub/evm/#code). It is meant as an accessible implementation with low complexity that can be used as an aid for studying the algorithm.
 
+## How to run 
+Video files are not included in this repository due to licensing. 
+If you want to reproduce the paper with `reproduce_paper.py`, you will need to download the videos from the [author's website](https://people.csail.mit.edu/mrub/evm/#code). 
+ 
+Install the dependencies by running `pip install -r requirements.txt`.     
+Then, run `python reproduce_paper.py`.
+
 ## File structure 
 | Name                    | Purpose                                                                           |
 |-------------------------|-----------------------------------------------------------------------------------|
