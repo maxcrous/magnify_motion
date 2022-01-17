@@ -8,6 +8,9 @@ If you want to reproduce the paper with `reproduce_paper.py`, you will need to d
 Install the dependencies by running `pip install -r requirements.txt`.     
 Then, run `python reproduce_paper.py`.
 
+Magnifying a 10-second video can take up to a minute on an average laptop.
+If you cannot view the video output file, try opening it with [VLC media player](http://www.videolan.org/vlc/).
+
 ## File structure 
 | Name                    | Purpose                                                                           |
 |-------------------------|-----------------------------------------------------------------------------------|
