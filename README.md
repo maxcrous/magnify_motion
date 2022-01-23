@@ -5,9 +5,18 @@ This repository contains a reproduction of [Eulerian Video Magnification for Rev
 Video files are not included in this repository due to licensing. 
 If you want to reproduce the paper with `reproduce_paper.py`, you will need to download the videos from the [author's website](https://people.csail.mit.edu/mrub/evm/#code). 
  
-Install the dependencies by running `pip install -r requirements.txt`.     
-Then, run `python reproduce_paper.py`.
+1. Install FFmpeg to allow video file reading      
+Linux (Debian based): ```sudo apt install ffmpeg```     
+MacOS: ```brew install ffmpeg```      
+Windows: follow [this guide](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/) 
 
+2. Install the python dependencies by running     
+```pip install -r requirements.txt```
+
+3. Reproduce the experiments from the paper by running     
+```python reproduce_paper.py```
+
+If skvideo cannot find FFmpeg, set the path to FFmpeg explicitly as shown in [this Github issue](https://github.com/scikit-video/scikit-video/issues/140#issuecomment-610646491).
 Magnifying a 10-second video can take up to a minute on an average laptop.
 If you cannot view the video output file, try opening it with [VLC media player](http://www.videolan.org/vlc/).
 
@@ -26,3 +35,5 @@ If you cannot view the video output file, try opening it with [VLC media player]
 | Shadow on a house | ![](gifs/output_authors/shadow.gif)  | ![](gifs/output/shadow.gif)  |
 | Guitar A string | ![](gifs/output_authors/guitar_a.gif)  | ![](gifs/output/guitar_a.gif)  |
 | Human pusle (speed difference due to fps conversion)| ![](gifs/output_authors/face1.gif)  | ![](gifs/output/face1.gif)  |
+
+
